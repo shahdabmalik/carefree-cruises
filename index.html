@@ -492,19 +492,23 @@
         </section>
 
         <!-- -----------------------Contact-Form-------------------- -->
-        <section id="contact" method="POST">
+        <section id="contact">
             <h1 data-aos="fade-down" class="heading contact-heading">Adventure Awaits</h1>
             <div class="contact-container">
                 <div data-aos="zoom-out" data-aos-delay="100" class="contact-img"><img src="media/contact.png" alt="">
                 </div>
 
                 <div data-aos="fade-up" data-aos-delay="100" class="contact-content">
-                    <form action="php/mail.php">
-                        
+                    <form action="php/mail.php" method="POST">
+                        <label for="name"></label>
                         <input required type="text" name="name" id="name" placeholder="Your name...">
+                        <label for="email"></label>
                         <input required type="email" name="email" id="email" placeholder="Your email...">
+                        <label for="subject"></label>
                         <input required type="text" name="subject" id="subject" placeholder="Subject...">
+                        <label for="message"></label>
                         <textarea required name="message" id="message" placeholder="Your message..."></textarea>
+                        <label for="submit"></label>
                         <input class="btn-light form-btn" id="submit" type="submit" value="Send">
                     </form>
                 </div>
