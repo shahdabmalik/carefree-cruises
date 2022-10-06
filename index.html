@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ----------Font-Awesome-CDN---------- -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+    <!-- ---------AOS-CSS----------------- -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- -------------Custom-CSS----------- -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <title>Carefree Cruises</title>
+</head>
+
+<body>
+    <!-- ----------Header--------- -->
+    <header data-aos="fade-down">
+        <a href="#" class="logo">Carefree <span>Cruises</span></a>
+        <nav>
+            <ul>
+                <li><a class="nav-link active" href="#hero">Home</a></li>
+                <li><a class="nav-link" href="#packages">Packages</a></li>
+                <li><a class="nav-link" href="#services">Services</a></li>
+                <li><a class="nav-link" href="#gallery">Gallery</a></li>
+                <li><a class="nav-link" href="#testimonial">Reviews</a></li>
+                <li><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-icons">
+            <i class="fa-solid header-search-btn fa-magnifying-glass-location"></i>
+            <i class="fa-solid user-menu fa-user"></i>
+            <i class="fa-solid menu-btn fa-bars"></i>
+        </div>
+        <div class="search-bar">
+            <input type="search" class="search-menu" placeholder="Your destination..."> <i
+                class="fa-solid search-bar-btn fa-magnifying-glass"></i>
+        </div>
+        <div class="login-container">
+            <div class="login-content">
+                <input class="usernam" type="text" placeholder="Username...">
+                <input class="password" type="password" placeholder="Password">
+                <label><input class="checkbox" type="checkbox"> <span>Remember Me</span></span></label>
+                <button class="btn-light login-btn"><i class="fa-solid fa-arrow-right-to-bracket"></i> Login
+                    Now</button>
+                <i class="fa-solid login-x-btn fa-xmark"></i>
+                <p class="signup">Did't have account <a href="#">SignUp</a></p>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!-- -------------Hero------------ -->
+        <section id="hero">
+            <div data-aos="fade-down" class="hero-content flex">
+                <h1 class="hero-heading heading">Affordable Travel. Unforgettable Experiences .</h1>
+                <p class="para hero-para">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi rerum ea laboriosam eveniet, ad
+                    corporis commodi cum et animi amet. Deleniti est molestias.
+                </p>
+                <button class="btn-light hero-btn">Book Now <i class="fa-solid book fa-handshake"></i></button>
+            </div>
+            <div class="image-container">
+                <img class="bg-img-1" src="media/bg/1.jpg" alt="">
+                <img class="bg-img-2" src="media/bg/2.jpg" alt="">
+                <img class="bg-img-3" src="media/bg/3.jpg" alt="">
+                <img class="bg-img-4" src="media/bg/5.jpg" alt="">
+                <img class="bg-img-5" src="media/bg/6.jpg" alt="">
+                <img class="bg-img-6" src="media/bg/7.jpg" alt="">
+            </div>
+        </section>
+        <!-- -----------------Details-Section-------------- -->
+        <section data-aos="zoom-out" data-aos-duration="400" id="details" class="flex">
+            <div class="detail">
+                <i class="fa-solid fa-person-walking-luggage"></i><br>
+                <span class="num1">1232+</span><br>
+                <span>Trips</span>
+            </div>
+            <div class="detail">
+                <i class="fa-solid fa-users"></i><br>
+                <span class="num2">726+</span><br>
+                <span>Customers</span>
+            </div>
+            <div class="detail">
+                <i class="fa-solid fa-map-location-dot"></i><br>
+                <span class="num3">142+</span><br>
+                <span>Places</span>
+            </div>
+            <div class="detail">
+                <i class="fa-solid fa-sack-dollar"></i><br>
+                <span class="num4">3180+</span><br>
+                <span>Savings</span>
+            </div>
+        </section>
+        <!-- ----------------Packages-Section------------ -->
+        <section id="packages">
+            <h1 data-aos="fade-up" class="heading packages-heading">Choose the way to <span>Paradise</span></h1>
+            <p data-aos="fade-up" data-aos-delay="100" class="para packages-para">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam saepe maxime totam quis sapiente
+                veritatis aliquam dolore molestias nulla, laborum alias eos, accusamus nesciunt? Reprehenderit ex
+                ratione ipsum quis earum, dolorem, aperiam consequuntur cumque mollitia non porro odit quaerat iusto
+                nemo recusandae sapiente voluptatem natus laboriosam aliquam molestias sint. Id.
+            </p>
+            <div class="packages-content">
+                <div class="card-1 card" data-aos="zoom-out">
+                    <div class="card-content">
+                        <p class="card-title">Paris</p>
+                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit..</p>
+                        <p class="price">$599 <span>$699</span></p>
+                        <button class="btn-light card-btn">Book Now</button>
+                        <div class="card-stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-2 card" data-aos="zoom-out" data-aos-delay="100">
+                    <div class="card-content">
+                        <p class="card-title">Hawaii</p>
+                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                        <p class="price">$699 <span>$799</span></p>
+                        <button class="btn-light card-btn">Book Now</button>
+                        <div class="card-stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-3 card" data-aos="zoom-out" data-aos-delay="200">
+                    <div class="card-content">
+                        <p class="card-title">Tokyo</p>
+                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                        <p class="price">$479 <span>$519</span></p>
+                        <button class="btn-light card-btn">Book Now</button>
+                        <div class="card-stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star-half-stroke"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-4 card" data-aos="zoom-out" data-aos-delay="300">
+                    <div class="card-content">
+                        <p class="card-title">New York </p>
+                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                        <p class="price">$799 <span>$849</span></p>
+                        <button class="btn-light card-btn">Book Now</button>
+                        <div class="card-stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star-half-stroke"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="btn-light packages-btn">Explore All Places</button>
+        </section>
+        <!-- ---------------NewsLetter------------------- -->
+        <section id="newsletter">
+            <div class="newsletter-content">
+                <h1 data-aos="fade-right" class="heading newsletter-heading">Subscribe to our Newletter and save upto
+                    10%</h1>
+                <p data-aos="fade-right" data-aos-delay="100" class="para newsletter-para">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus voluptatem blanditiis id sapiente
+                    quasi quae aliquid iusto fugit quis quidem?
+                </p>
+                <div data-aos="fade-right" data-aos-delay="200" class="email">
+                    <input type="email" placeholder="Enter your email..."><button
+                        class="btn-light newsletter-btn">Subscribe</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- ------------------Services-Section---------------- -->
+        <section id="services">
+            <div class="services-header">
+                <h1 data-aos="fade-up" class="heading services-heading">Services we <span>Offer</span></h1>
+                <p data-aos="fade-up" data-aos-delay="100" class="para services-para">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit sapiente tempore blanditiis
+                    accusamus
+                    nemo quo autem in totam eaque. Quod nisi iste ea aut, hic inventore veniam officiis? Eveniet
+                    obcaecati
+                    laborum ducimus! Numquam ex soluta, fugit, totam sint consectetur possimus nulla facilis eligendi
+                    veritatis alias distinctio! Doloremque fugit eos consequatur. Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Earum doloremque doloribus suscipit consequatur consequuntur temporibus nam itaque
+                    eius, dolorem, eveniet ex. Voluptas delectus animi optio.
+                </p>
+            </div>
+            <div class="services-content">
+                <div data-aos="zoom-out" class="service">
+                    <i class="fa-solid fa-utensils"></i>
+                    <div class="service-subcont">
+                        <div class="service-title">Food & Drinks</div>
+                        <div class="service-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
+                            eveniet
+                            excepturi placeat asperiores fugit dolore.</div>
+                    </div>
+                </div>
+                <div data-aos="zoom-out" data-aos-delay="100" class="service">
+                    <i class="fa-solid fa-hotel"></i>
+                    <div class="service-subcont">
+                        <div class="service-title">Affordable Hotels</div>
+                        <div class="service-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
+                            eveniet
+                            excepturi placeat asperiores fugit dolore.</div>
+                    </div>
+                </div>
+                <div data-aos="zoom-out" class="service">
+                    <i class="fa-solid fa-plane-up"></i>
+                    <div class="service-subcont">
+                        <div class="service-title">Fast Travel</div>
+                        <div class="service-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
+                            eveniet
+                            excepturi placeat asperiores fugit dolore.</div>
+                    </div>
+                </div>
+                <div data-aos="zoom-out" data-aos-delay="100" class="service">
+                    <i class="fa-solid fa-shield-heart"></i>
+                    <div class="service-subcont">
+                        <div class="service-title">Safety Guide</div>
+                        <div class="service-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
+                            eveniet
+                            excepturi placeat asperiores fugit dolore.</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ----------------------Gallery---------------------- -->
+        <section id="gallery">
+            <h1 data-aos="fade-up" class="heading gallery-heading">Memories of our <span>Customers</span></h1>
+            <p data-aos="fade-up" data-aos-delay="100" class="para gallery-para">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores repudiandae similique error tenetur
+                eaque quidem quas, beatae vel eum dolore reprehenderit enim earum, praesentium libero laboriosam ut vero
+                incidunt cupiditate aut perferendis illum laborum? Laudantium impedit harum nulla reiciendis dolore iure
+                aut, tempora aliquid totam quaerat rem facilis culpa quod.
+            </p>
+            <div class="gallery-content">
+                <div class="gal-cont cont1">
+                    <div class="gal-subcont">
+                        <p class="gal-heading">Amazing Place!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, doloribus.</p>
+                        <button class="btn-light gal-btn">Visit</button>
+                    </div>
+                </div>
+                <div class="gal-cont cont2">
+                    <div class="gal-subcont">
+                        <p class="gal-heading">Amazing Place!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, doloribus.</p>
+                        <button class="btn-light gal-btn">Visit</button>
+                    </div>
+                </div>
+                <div class="gal-cont cont4">
+                    <div class="gal-subcont">
+                        <p class="gal-heading">Amazing Place!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, doloribus.</p>
+                        <button class="btn-light gal-btn">Visit</button>
+                    </div>
+                </div>
+                <div class="gal-cont cont5">
+                    <div class="gal-subcont">
+                        <p class="gal-heading">Amazing Place!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, doloribus.</p>
+                        <button class="btn-light gal-btn">Visit</button>
+                    </div>
+                </div>
+                <div class="gal-cont cont6">
+                    <div class="gal-subcont">
+                        <p class="gal-heading">Amazing Place!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, doloribus.</p>
+                        <button class="btn-light gal-btn">Visit</button>
+                    </div>
+                </div>
+                <div data-aos-delay="100" class="gal-cont cont9">
+                    <div class="gal-subcont">
+                        <p class="gal-heading">Amazing Place!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, doloribus.</p>
+                        <button class="btn-light gal-btn">Visit</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ------------------------------Testimonial-Section-------------------------- -->
+        <section id="testimonial">
+            <h1 data-aos="fade-up" class="heading testimonial-heading">What our customers have to say abour our
+                <span>Services</span>
+            </h1>
+            <p data-aos="fade-up" data-aos-delay="100" class="para testimonial-para">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius consectetur voluptas delectus nam
+                exercitationem qui voluptatem, dolores atque? Repellendus cum enim rerum amet voluptatibus excepturi
+                laudantium quisquam adipisci a voluptate.
+            </p>
+            <div class="testimonial-container swiper">
+                <div class="testimonial-content swiper-wrapper">
+
+
+                    <div class="testimonial swiper-slide">
+                        <div class="testimonial-profile">
+                            <img src="media/users/1.jpg" alt="" class="profile-img">
+                            <div class="profile-name">
+                                <p class="name">Allana Spears</p>
+                                <p class="work">Product Manager</p>
+                            </div>
+                        </div>
+                        <p class="testimonial-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur aperiam illo odit aut
+                            beatae repudiandae, iusto rerum inventore libero dolorem.
+                        </p>
+                        <span class="testimonial-stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </span>
+
+                    </div>
+
+
+                    <div class="testimonial swiper-slide">
+                        <div class="testimonial-profile">
+                            <img src="media/users/2.jpg" alt="" class="profile-img">
+                            <div class="profile-name">
+                                <p class="name">Vironica Hades</p>
+                                <p class="work">MakeUp Artist</p>
+                            </div>
+                        </div>
+                        <p class="testimonial-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur aperiam illo odit aut
+                            beatae repudiandae, iusto rerum inventore libero dolorem.
+                        </p>
+                        <span class="testimonial-stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star-half-stroke"></i>
+                        </span>
+
+                    </div>
+
+
+                    <div class="testimonial swiper-slide">
+                        <div class="testimonial-profile">
+                            <img src="media/users/3.jpg" alt="" class="profile-img">
+                            <div class="profile-name">
+                                <p class="name">James Falcon</p>
+                                <p class="work">Software Engineer</p>
+                            </div>
+                        </div>
+                        <p class="testimonial-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur aperiam illo odit aut
+                            beatae repudiandae, iusto rerum inventore libero dolorem.
+                        </p>
+                        <span class="testimonial-stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </span>
+
+                    </div>
+
+                    <div class="testimonial swiper-slide">
+                        <div class="testimonial-profile">
+                            <img src="media/users/4.jpg" alt="" class="profile-img">
+                            <div class="profile-name">
+                                <p class="name">Daemon Hells</p>
+                                <p class="work">American Model</p>
+                            </div>
+                        </div>
+                        <p class="testimonial-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur aperiam illo odit aut
+                            beatae repudiandae, iusto rerum inventore libero dolorem.
+                        </p>
+                        <span class="testimonial-stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </span>
+
+                    </div>
+
+                    <div class="testimonial swiper-slide">
+                        <div class="testimonial-profile">
+                            <img src="media/users/5.jpg" alt="" class="profile-img">
+                            <div class="profile-name">
+                                <p class="name">Siri Marys</p>
+                                <p class="work">Fitness Instructer</p>
+                            </div>
+                        </div>
+                        <p class="testimonial-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur aperiam illo odit aut
+                            beatae repudiandae, iusto rerum inventore libero dolorem.
+                        </p>
+                        <span class="testimonial-stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star-half-stroke"></i>
+                        </span>
+                    </div>
+
+
+                    <div class="testimonial swiper-slide">
+                        <div class="testimonial-profile">
+                            <img src="media/users/6.jpg" alt="" class="profile-img">
+                            <div class="profile-name">
+                                <p class="name">Hannah Lays</p>
+                                <p class="work">Senior Citizen</p>
+                            </div>
+                        </div>
+                        <p class="testimonial-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur aperiam illo odit aut
+                            beatae repudiandae, iusto rerum inventore libero dolorem.
+                        </p>
+                        <span class="testimonial-stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </span>
+                    </div>
+
+
+                    <div class="testimonial swiper-slide">
+                        <div class="testimonial-profile">
+                            <img src="media/users/7.jpg" alt="" class="profile-img">
+                            <div class="profile-name">
+                                <p class="name">Haldon Ramond</p>
+                                <p class="work">Product Manager</p>
+                            </div>
+                        </div>
+                        <p class="testimonial-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur aperiam illo odit aut
+                            beatae repudiandae, iusto rerum inventore libero dolorem.
+                        </p>
+                        <span class="testimonial-stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+
+                        </span>
+                    </div>
+
+
+                    <div class="testimonial swiper-slide">
+                        <div class="testimonial-profile">
+                            <img src="media/users/8.jpg" alt="" class="profile-img">
+                            <div class="profile-name">
+                                <p class="name">David Rick</p>
+                                <p class="work">Travel Vlogger</p>
+                            </div>
+                        </div>
+                        <p class="testimonial-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur aperiam illo odit aut
+                            beatae repudiandae, iusto rerum inventore libero dolorem.
+                        </p>
+                        <span class="testimonial-stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star-half-stroke"></i>
+                        </span>
+                    </div>
+
+
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+        <!-- -----------------------Contact-Form-------------------- -->
+        <section id="contact" method="POST">
+            <h1 data-aos="fade-down" class="heading contact-heading">Adventure Awaits</h1>
+            <div class="contact-container">
+                <div data-aos="zoom-out" data-aos-delay="100" class="contact-img"><img src="media/contact.png" alt="">
+                </div>
+
+                <div data-aos="fade-up" data-aos-delay="100" class="contact-content">
+                    <form action="php/mail.php">
+                        
+                        <input required type="text" name="name" id="name" placeholder="Your name...">
+                        <input required type="email" name="email" id="email" placeholder="Your email...">
+                        <input required type="text" name="subject" id="subject" placeholder="Subject...">
+                        <textarea required name="message" id="message" placeholder="Your message..."></textarea>
+                        <input class="btn-light form-btn" id="submit" type="submit" value="Send">
+                    </form>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <!-- ------------------Footer------------------- -->
+
+    <footer>
+        <section id="footer">
+            <div class="footer-container">
+                <div class="footer-links">
+                    <a href="#hero">Home</a>
+                    <a href="#packages">Packages</a>
+                    <a href="#services">Services</a>
+                    <a href="#gallery">Gallery</a>
+                    <a href="#testimonial">Reviews</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="footer-icons">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-solid fa-globe"></i>
+
+                </div>
+                <p class="footer-text">
+                    SHAHDAB MALIK | All Rights Reserved
+                </p>
+            </div>
+
+        </section>
+    </footer>
+
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <!-- ----------AOS-JS------- -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
