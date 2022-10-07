@@ -526,7 +526,7 @@ header .nav-link.active {
 
 /* ---------------------------------------Newsletter--------------------------------- */
 #newsletter {
-  background: url("../media/images/newsletter.jpg") no-repeat;
+  background: url("../media/images/newsletter.webp") no-repeat;
   background-size: cover;
   background-attachment: fixed;
   box-shadow: 0 -0.5rem 1rem rgb(0, 0, 0, 0.5);
